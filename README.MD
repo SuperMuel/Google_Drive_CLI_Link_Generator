@@ -14,7 +14,7 @@ gd_link_generator.py <file_path> [OPTIONS]
 
 Options:
 
-- `-a`, `--anyone` - If this option is passed, anyone with the link can access the file.
+- `-a`, `--anyone` - If this option is passed, **anyone with the link can access the file**.
 
 Example : 
 ```bash
@@ -31,7 +31,7 @@ git clone https://github.com/SuperMuel/Google_Drive_CLI_Link_Generator.git
 cd Google_Drive_CLI_Link_Generator
 ```
 
-Install the required packages from requirements.txt using pip:
+Install the required packages from `requirements.txt` using pip:
 
 ```bash
 pip install -r requirements.txt
@@ -46,7 +46,11 @@ pip install -r requirements.txt
 
 - Create credentials for the Google Drive API. Choose **"Desktop app"** for the type of app.
 
-- **Download the credentials JSON** file and place it in the same directory as the script as **credentials.json**
+- **Download the credentials JSON** file
+
+- Place the downloaded file in the project's root directory alongside config.json.
+
+- Rename it **credentials.json**
 
 ## Local JSON Configuration:
 
