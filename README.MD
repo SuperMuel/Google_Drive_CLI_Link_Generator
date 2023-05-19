@@ -80,7 +80,7 @@ chmod +x ./bin/gd_link_generator.py
 3. Add the following line at the end of the file:
 
 ```bash
-export PATH=$PATH:~/bin
+export PATH=$PATH:<PATH_TO_Google_Drive_CLI_Link_Generator_FOLDER>/bin
 ```
 4. Save and close the file.
 
